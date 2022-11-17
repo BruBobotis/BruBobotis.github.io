@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    background-color:#2D1745;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 25px 50px;
+    font-family: monospace;
+    
+}
+body {
+    padding: 7px;
+    background-color:#785D98;
+    color: rgb(255, 255, 255);
+    font-size: 18px; 
+    font-family: monospace;    
+}
+#foto {
+    text-decoration: none;
+    padding: 10px;
+}
+#FotoBruno{
+    border-radius: 13px;
+    border-color: #2D1745;
+    border-style:solid;
+    border-width: 3px;
+}
+.botaoVoltar{
+    appearance: none;
+    background-color: #2D1745;
+    border: 2px solid #2D1745;
+    border-radius: 13px;
+    color: white;
+    cursor: pointer;
+    align-self: center;
+    -ms-flex-item-align: center;
+    font-size: 17px;
+    padding: 20px 40px;
+    text-decoration: none;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 700;
+}
+.botaoVoltar:hover, .botaoVoltar:focus {
+    color: #fff;
+    outline: 0;
+}
+.botaoVoltar {
+    -webkit-transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
+    transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
+}
+.botaoVoltar:hover {
+    box-shadow: 0 0 40px 40px #785D98 inset;
+}
