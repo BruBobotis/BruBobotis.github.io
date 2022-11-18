@@ -1,31 +1,97 @@
-h1 {
-    text-align: center;
-    background-color:#2D1745;
-    font-size: 50px;
+header{
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
+    background-color: #2D1745;
+    font-size: 18px;
     font-weight: 800;
-    padding: 25px 50px;
+    padding: 12px 100px;
     font-family: monospace;
-    
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+    height: 40px;
 }
+
+#tituloInicio {
+   position: fixed;
+   top: 20px;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+#tituloSobre {
+    position: fixed;
+    top: 20px;
+    left: 200px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#tituloFormacao {
+    position: fixed;
+    top: 20px;
+    left: 325px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#linkedin {
+    position: fixed;
+    text-align: center;
+    right: 40px;
+}
+
+#portifolio {
+    position: fixed;
+    top: -5px; 
+    right: 200px;
+    left: 200px;  
+    text-align: center;
+}
+#nome {
+    font-family: monospace;
+    position: absolute;
+    text-align: center;
+    top: 200px;  
+    right:800px;
+    left: 0px;
+}
+
 body {
     padding: 7px;
-    background-color:#785D98;
+    background-color: #785D98;
     color: rgb(255, 255, 255);
-    font-size: 18px; 
-    font-family: monospace;    
+    font-size: 18px;
+    font-family: monospace;
 }
+
 #foto {
     text-decoration: none;
+    position: relative;
     padding: 10px;
+    left: 13px;
+    top: 5px;
 }
-#FotoBruno{
+
+#FotoBruno {
     border-radius: 13px;
     border-color: #2D1745;
-    border-style:solid;
+    border-style: solid;
     border-width: 3px;
+    position: relative;
+    top: 10px;
+    left: 20px; 
+    
+
 }
-.botaoVoltar{
+
+.botaoVoltar {
     appearance: none;
+    position: relative;
     background-color: #2D1745;
     border: 2px solid #2D1745;
     border-radius: 13px;
@@ -40,14 +106,18 @@ body {
     font-family: monospace;
     font-weight: 700;
 }
-.botaoVoltar:hover, .botaoVoltar:focus {
+
+.botaoVoltar:hover,
+.botaoVoltar:focus {
     color: #fff;
     outline: 0;
 }
+
 .botaoVoltar {
     -webkit-transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
     transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
 }
+
 .botaoVoltar:hover {
     box-shadow: 0 0 40px 40px #785D98 inset;
 }
